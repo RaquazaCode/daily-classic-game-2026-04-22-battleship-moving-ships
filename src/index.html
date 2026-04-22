@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship: Moving Ships</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="panel">
+        <h1>Battleship: Moving Ships</h1>
+        <p class="subtitle">A deterministic duel where untouched ships reposition after each enemy volley.</p>
+        <ul>
+          <li>Click a tile in <strong>Enemy Waters</strong> to fire.</li>
+          <li>After your shot, the AI returns fire and surviving untouched ships can drift one cell.</li>
+          <li><kbd>P</kbd> pause, <kbd>R</kbd> reset, <kbd>N</kbd> new round after win/loss.</li>
+        </ul>
+        <p id="status" class="status"></p>
+        <h2>Recent Events</h2>
+        <ol id="events" class="events"></ol>
+      </section>
+      <canvas id="game" width="1040" height="760" aria-label="Battleship game canvas"></canvas>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "schema": "web_game_playwright_client/v1",
+  "actions": [
+    {
+      "name": "opening-shot",
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 668,
+      "mouse_y": 152,
+      "frames": 12
+    },
+    {
+      "name": "opening-followup",
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 668,
+      "mouse_y": 208,
+      "frames": 12
+    },
+    {
+      "name": "enemy-response-window",
+      "buttons": [],
+      "mouse_x": 668,
+      "mouse_y": 208,
+      "frames": 84
+    }
+  ]
+}

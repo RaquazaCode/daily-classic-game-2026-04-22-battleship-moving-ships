@@ -1,0 +1,16 @@
+{
+  "name": "daily-classic-game-2026-04-22-battleship-moving-ships",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "/opt/homebrew/bin/python3 -m http.server 4173 --directory src",
+    "test": "/opt/homebrew/bin/node --test tests/game-core.test.mjs && /opt/homebrew/bin/node scripts/self-check.mjs",
+    "build": "/opt/homebrew/bin/node scripts/build.mjs",
+    "verify": "/opt/homebrew/bin/pnpm test && /opt/homebrew/bin/pnpm build",
+    "capture": "/opt/homebrew/bin/node scripts/playwright-capture.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.2"
+  }
+}
