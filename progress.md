@@ -4,4 +4,5 @@
 - [x] Implemented deterministic Battleship core with moving-ships twist.
 - [x] Added browser hooks (`window.advanceTime`, `window.render_game_to_text`).
 - [x] Added tests, self-check, build/capture scripts.
-- [ ] Run full verification, git flow, repo publish, PR merge, deploy, and automation record updates.
+- [x] Run full verification (`pnpm install`, `pnpm test`, `pnpm build`, `pnpm capture`).
+- [ ] Complete git flow, PR merge, deploy, and automation record updates.
