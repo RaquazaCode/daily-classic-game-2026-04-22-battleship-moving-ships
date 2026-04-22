@@ -5,4 +5,4 @@
 - [x] Added browser hooks (`window.advanceTime`, `window.render_game_to_text`).
 - [x] Added tests, self-check, build/capture scripts.
 - [x] Run full verification (`pnpm install`, `pnpm test`, `pnpm build`, `pnpm capture`).
-- [ ] Complete git flow, PR merge, deploy, and automation record updates.
+- [x] Complete git flow, PR merge, deploy attempt, and automation record updates.
