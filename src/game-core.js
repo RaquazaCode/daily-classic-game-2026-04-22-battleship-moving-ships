@@ -381,6 +381,7 @@ export function renderGameToText(state) {
     `player_hits=${state.playerHits}`,
     `enemy_shots=${state.enemyShots}`,
     `enemy_hits=${state.enemyHits}`,
+    `pending_enemy_turn_ms=${state.pendingEnemyTurnMs ?? 0}`,
     `enemy_ships_sunk=${sunkCount(state.enemyBoard)}/${state.enemyBoard.ships.length}`,
     `player_ships_sunk=${sunkCount(state.playerBoard)}/${state.playerBoard.ships.length}`,
     "enemy_board_public:",
